@@ -22,7 +22,7 @@ from them (`python plot_paper_figs.py --out figs`; requires numpy and matplotlib
 | `exp_estimation.py` | accuracy and computation time of the three evaluation methods (Fig. 6) |
 | `exp_time.py` | computation time versus number of orders (Fig. 8) and computational cost of the GIN encoder (Section 3.2.2) |
 | `exp_dynamic.py`, `fig_order7.py` | continuous order arrivals (Tables 9 and 10, Figs. 9 and 10) |
-| `exp_validation.py` | model validation (Section 2.3.2) |
+| `exp_validation.py` | model validation (Section 4.2) |
 | `plot_curves.py` | training curves (Fig. 7) |
 | `plot_paper_figs.py` | Figs. 6, 9 and 10 drawn from the result files |
 
