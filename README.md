@@ -21,7 +21,7 @@ from them (`python plot_paper_figs.py --out figs`; requires numpy and matplotlib
 | `exp_static.py` | static instances (Tables 6–8) |
 | `exp_estimation.py` | accuracy and computation time of the three evaluation methods (Fig. 6) |
 | `exp_time.py` | computation time versus number of orders (Fig. 8) and computational cost of the GIN encoder (Section 3.2.2) |
-| `exp_dynamic.py`, `fig_order7.py` | continuous order arrivals (Tables 9 and 10, Figs. 9 and 10) |
+| `exp_dynamic.py`, `fig_order7.py` | continuous order arrivals (Tables 9–11, Figs. 9 and 10) |
 | `exp_validation.py` | model validation (Section 4.2) |
 | `plot_curves.py` | training curves (Fig. 7) |
 | `plot_paper_figs.py` | Figs. 6, 9 and 10 drawn from the result files |
@@ -33,11 +33,11 @@ Order completion times and transportation times are in hours, computation times 
 | File | Manuscript |
 |---|---|
 | `results/table6.csv` | Table 6, static instances (ablation study) |
-| `results_ablation_dynamic/` | Table 6, columns D-30, D-50 and D-100 (ablation variants under continuous order arrivals; same file structure as below) |
+| `results_ablation_dynamic/` | Table 6, rows D-30, D-50 and D-100 (ablation variants under continuous order arrivals; same file structure as below) |
 | `results/table7.csv`, `results/static_time.csv` | Table 7 and the computation times of GA and KTPOA in Section 4.2 |
 | `results/table8.csv` | Table 8 |
 | `results/table9.csv`, `results/table10.csv` | Tables 9 and 10, Orders 1–10 |
-| `results/dynamic_summary.csv` | Tables 9 and 10, rows D-30, D-50 and D-100 (mean ± standard deviation over 10 arrival sequences), decision time per order |
+| `results/dynamic_summary.csv` | Table 11 (mean ± standard deviation over 10 arrival sequences), decision time per order |
 | `results/dynamic_detail.csv` | every order of every arrival sequence in the continuous-arrival scenarios |
 | `results/dynamic_tests.csv` | paired comparison over the 10 arrival sequences (Wilcoxon signed-rank test) |
 | `results/table9_realized.csv`, `results/static_realized.csv` | completion times realized when the schedules are executed by the insertion-based simulation |
