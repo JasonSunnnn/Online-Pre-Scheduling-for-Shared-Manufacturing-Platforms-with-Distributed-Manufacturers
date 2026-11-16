@@ -1,0 +1,1 @@
+2720.7 s for 25 epochs

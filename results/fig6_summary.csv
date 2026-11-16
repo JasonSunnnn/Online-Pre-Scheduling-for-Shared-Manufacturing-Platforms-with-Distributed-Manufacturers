@@ -1,0 +1,5 @@
+﻿item,insertion-based simulation,expected value,pessimistic
+schedules from,GIN-DPPO-E,,
+mean relative deviation (%),0,-1.94,0.18
+mean absolute relative deviation (%),0,1.95,0.18
+time per instance (s),0.00124,0.00078,0.00079

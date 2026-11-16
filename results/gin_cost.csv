@@ -1,0 +1,5 @@
+﻿method,encoder_forward_ms_per_step,decision_ms_per_step,encoder_share(%),decision_time_per_order_s,training_time_h,training_time_per_epoch_min
+GIN-DPPO-E,0.839,2.917,28.7,0.1331,4.45,8.09 (33 epochs)
+GIN-DPPO-E-NL,0.871,2.865,30.4,0.1307,5.88,4.77 (74 epochs)
+DPPO-E-NL,0.480,2.428,19.8,0.1108,1.84,5.02 (22 epochs)
+GIN-PPO-E-NL,0.895,2.988,30.0,0.1363,9.23,7.69 (72 epochs)

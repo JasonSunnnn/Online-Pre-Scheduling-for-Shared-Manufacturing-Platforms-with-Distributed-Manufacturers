@@ -1,0 +1,4 @@
+﻿item,value
+"seed 0, best checkpoint (epoch 23)",39.463
+"seed 0, last checkpoint (epoch 33)",39.375
+seed 0 best validation mean (sum over 300 = 11941.1),39.804

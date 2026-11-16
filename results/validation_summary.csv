@@ -1,0 +1,11 @@
+﻿item,value
+shop model: instances solved to optimality,53 / 60
+shop model: mean gap of Rules 1-3 to the optimum (%),3.56
+shop model: max gap (%),20.00
+shop model: instances where Rules 1-3 are optimal,27
+"platform model: mean gap of GIN-DPPO-E to the optimum (%), 32 proved instances",0.00
+platform model: instances where GIN-DPPO-E is optimal,32
+"platform model: mean gap of KTPOA to the optimum (%), 32 proved instances",4.12
+platform model: instances where KTPOA is optimal,24
+"platform model: mean gap of best rule to the optimum (%), 32 proved instances",17.93
+platform model: instances where best rule is optimal,11

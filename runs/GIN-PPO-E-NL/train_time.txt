@@ -1,0 +1,2 @@
+16078.7 s for epochs 1-40
+17163.5 s for epochs 41-72
