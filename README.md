@@ -12,7 +12,7 @@ from them (`python plot_paper_figs.py --out figs`; requires numpy and matplotlib
 
 | File | Content |
 |---|---|
-| `smp/nets.py` | GIN encoder with edge features (Eq. (31)), mean / sum graph readout, GCN layer and MLP embedding used in the ablation study, networks of the compared DRL methods |
+| `smp/nets.py` | GIN encoder with edge features (Eq. (32)), mean / sum graph readout, GCN layer and MLP embedding used in the ablation study, networks of the compared DRL methods |
 | `smp/agents.py` | task actor, manufacturer actor and shared critic of GIN-DPPO-E and its variants (including the single-actor variant), PBMP, R-PPO and QIHGRL |
 | `smp/ppo.py` | dual-actor PPO with clipped surrogate loss and adaptive entropy coefficient (Algorithm 1) |
 | `smp/ddqn.py`, `smp/dq.py`, `smp/meta.py` | compared methods MPDDQN, D-Q, GA and KTPOA |
@@ -47,7 +47,7 @@ Order completion times and transportation times are in hours, computation times 
 | `results/fig8.csv` | Fig. 8 |
 | `results/fig9_info.txt`, `results/order7_schedule.csv` | Figs. 9 and 10 |
 | `results/gin_cost.csv` | Section 3.2.2, computational cost of the GIN encoder |
-| `results/validation_shop.csv`, `results/validation_order.csv`, `results/validation_summary.csv` | Section 2.3.2, model validation |
+| `results/validation_shop.csv`, `results/validation_order.csv`, `results/validation_summary.csv` | Section 4.2, model validation |
 | `results/fig6.png` … `results/fig10.png` | Figs. 6–10 |
 | `versions.txt` | software and hardware used for the experiments |
 
